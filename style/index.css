@@ -15,7 +15,7 @@ body {
 header {
     width: 1200px;
     height: auto;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     margin: 0 auto;
 }
 
@@ -115,7 +115,7 @@ main {
 
 .team-container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     /* border: 1px solid black; */
     grid-gap: 20px;
 }
@@ -133,11 +133,50 @@ main {
     /* border: 1px solid black; */
     padding: 5px;
 }
-.feature-details p{
+
+.feature-details p {
     font-size: 10px;
     color: rgb(14, 13, 13);
 }
-.feature-details button{
+
+.feature-details button {
     margin-top: 25px;
 }
+
 .feature-details h3 {}
+
+/* -------------------main section 2 is start here---------------- */
+.main-section-2 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+/* .our-feature{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+} */
+.feature {
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 11px;
+    box-shadow: 2px 2px 2px 2px darkgray;
+
+}
+
+.feature-title {
+    width: 300px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.feature-banner {}
+
+.feature-banner img {
+    width: 100%;
+    height: 700px;
+}

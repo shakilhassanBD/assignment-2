@@ -150,6 +150,7 @@ main {
     display: flex;
     justify-content: center;
     gap: 50px;
+    margin: 0 0 50px;
 }
 
 /* .our-feature{
@@ -162,7 +163,7 @@ main {
     width: 400px;
     height: auto;
     padding: 10px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-bottom: 11px;
     box-shadow: 2px 2px 2px 2px darkgray;
 
@@ -179,4 +180,59 @@ main {
 .feature-banner img {
     width: 100%;
     height: 700px;
+}
+
+/* ----------main section 2 is over and 3 is start here----------- */
+
+.main-section-3 {
+    margin: 80px 0 50px;
+}
+
+.achievement-intro {
+    width: 500px;
+    height: auto;
+    /* border: 1px solid black; */
+    margin: 0 0 50px 150px;
+    padding: 10px;
+}
+
+.achievement-intro h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.achievements {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.achievement-icon {
+    display: flex;
+    justify-content: center;
+    /* gap: 50px; */
+
+}
+
+.icon {
+    width: 150px;
+    height: 120px;
+    border: 1px solid tomato;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 30px;
+    border-radius: 10px;
+
+}
+
+.icon p {
+    font-size: small;
+}
+
+.icon img:hover,
+.icon:hover {
+    border: 3px solid blue;
 }

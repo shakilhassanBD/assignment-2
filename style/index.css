@@ -1,10 +1,92 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
 }
-body{
+/* --------------------common styles--------------- */
+body {
     width: 100%;
     height: auto;
     background-color: #FFF4E7;
 }
+
+header {
+    width: 1200px;
+    height: auto;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    /* background-color: blueviolet; */
+    margin: 50px 0;
+    align-items: center;
+
+}
+
+.company-name {
+font-weight: 700;
+font-size: 1.5rem;
+
+}
+
+.header-nav a{
+    padding: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(56, 54, 54);
+}
+a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+
+.header-heading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-heading {
+    width: 480px;
+    height: auto;
+    font-size: 1.5rem;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.header-intro {
+    /* border: 1px solid black; */
+    width: 600px;
+    text-align: center;
+    color: rgb(73, 72, 72);
+    margin: 20px 0 20px;
+}
+
+.header-btn button{
+    font-size: 20px;
+    background-color: #FF900E;
+    padding: 10px;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+}
+.header-btn button:hover{
+    border: 2px solid tomato;
+    
+}
+.header-banner img {
+    width: 900px;
+    height: auto;
+    margin-top: 50px;
+}
+/* ----------------header close------------- */
+/* ----------header responsive is start here------------- */
+
+
+/* ---------------------------------- */

@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
+
 /* --------------------common styles--------------- */
 body {
     width: 100%;
@@ -14,7 +15,7 @@ body {
 header {
     width: 1200px;
     height: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 0 auto;
 }
 
@@ -29,18 +30,19 @@ header {
 }
 
 .company-name {
-font-weight: 700;
-font-size: 1.5rem;
+    font-weight: 700;
+    font-size: 1.5rem;
 
 }
 
-.header-nav a{
+.header-nav a {
     padding: 20px;
     text-decoration: none;
     font-weight: 500;
     color: rgb(56, 54, 54);
 }
-a:hover{
+
+a:hover {
     text-decoration: underline;
     color: tomato;
 }
@@ -68,7 +70,7 @@ a:hover{
     margin: 20px 0 20px;
 }
 
-.header-btn button{
+.primary-btn button {
     font-size: 20px;
     background-color: #FF900E;
     padding: 10px;
@@ -76,17 +78,66 @@ a:hover{
     border-style: none;
     border-radius: 10px;
 }
-.header-btn button:hover{
+
+.primary-btn button:hover {
     border: 2px solid tomato;
-    
+
 }
+
 .header-banner img {
     width: 900px;
     height: auto;
     margin-top: 50px;
 }
+
 /* ----------------header close------------- */
 /* ----------header responsive is start here------------- */
 
 
 /* ---------------------------------- */
+
+main {
+    width: 1200px;
+    height: auto;
+    border: 1px solid black;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+.main-section-1 {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 60px 0 90px;
+}
+
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* border: 1px solid black; */
+    grid-gap: 20px;
+}
+
+.architect {}
+
+.architect img {
+    width: 200px;
+    height: 200px;
+}
+
+.feature-details {
+    width: 200px;
+    height: auto;
+    /* border: 1px solid black; */
+    padding: 5px;
+}
+.feature-details p{
+    font-size: 10px;
+    color: rgb(14, 13, 13);
+}
+.feature-details button{
+    margin-top: 25px;
+}
+.feature-details h3 {}

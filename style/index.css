@@ -225,7 +225,12 @@ main {
     padding: 10px 0;
     margin: 0 30px;
     border-radius: 10px;
+    transition: transform 3s;
 
+}
+
+.icon:hover {
+    transform: rotate(360deg);
 }
 
 .icon p {

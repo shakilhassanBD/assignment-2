@@ -100,7 +100,7 @@ main {
     width: 1200px;
     height: auto;
     border: 1px solid black;
-    margin: 0 auto;
+    margin: 0 auto 20px;
     background-color: #FFFFFF;
 }
 
@@ -234,5 +234,40 @@ main {
 
 .icon img:hover,
 .icon:hover {
-    border: 3px solid blue;
+    border: 3px solid rgb(245, 54, 95);
+    border-radius: 10px;
+}
+
+/* ---------main section 2 end and 3 is start here------------- */
+
+.main-section-4 {}
+
+.sponsor-title {
+    width: 400px;
+    height: auto;
+    margin: 0 auto 50px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.sponsor-title h3 {}
+
+.sponsor-icons {
+    width: 810px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    gap: 30px;
+    padding: 10px 0 10px;
+    margin: 0 auto 30px;
+
+}
+
+/* .sponsor-company {} */
+
+.sponsor-company img {
+    width: 100px;
+    height: auto;
 }

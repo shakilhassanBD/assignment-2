@@ -294,9 +294,19 @@ main {
 .copy-right {
     width: 600px;
     height: auto;
-    font-size: 20px;
+    font-size: 15px;
     margin: 0 auto 20px;
     background-color: #FFF4E7;
     text-align: center;
     padding: 20px 0;
+}
+
+.copy-right a {
+    text-decoration: none;
+    color: tomato;
+}
+
+.copy-right a:hover {
+    text-decoration: underline;
+    color: red;
 }

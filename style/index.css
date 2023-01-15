@@ -96,7 +96,7 @@ main {
     width: 1200px;
     height: auto;
     border: 1px solid black;
-    margin: 0 auto 50px;
+    margin: 0 auto 0px;
     background-color: #FFFFFF;
 }
 
@@ -211,7 +211,7 @@ main {
     align-items: center;
 }
 
-.achievement-icon {
+.achievement-icons {
     display: flex;
     justify-content: center;
 

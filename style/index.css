@@ -15,7 +15,6 @@ body {
 header {
     width: 1200px;
     height: auto;
-    border: 1px solid black;
     margin: 0 auto;
 }
 
@@ -23,7 +22,6 @@ header {
     display: flex;
     justify-content: space-around;
     gap: 50px;
-    /* background-color: blueviolet; */
     margin: 50px 0;
     align-items: center;
 
@@ -59,11 +57,9 @@ a:hover {
     height: auto;
     font-size: 1.5rem;
     text-align: center;
-    /* border: 1px solid black; */
 }
 
 .header-intro {
-    /* border: 1px solid black; */
     width: 600px;
     text-align: center;
     color: rgb(73, 72, 72);
@@ -120,8 +116,6 @@ main {
     grid-gap: 20px;
 }
 
-.architect {}
-
 .architect img {
     width: 200px;
     height: 200px;
@@ -143,8 +137,6 @@ main {
     margin-top: 25px;
 }
 
-.feature-details h3 {}
-
 /* -------------------main section 2 is start here---------------- */
 .main-section-2 {
     display: flex;
@@ -153,17 +145,10 @@ main {
     margin: 0 0 50px;
 }
 
-/* .our-feature{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-bottom: 10px;
-} */
 .feature {
     width: 400px;
     height: auto;
     padding: 10px;
-    /* border: 1px solid black; */
     margin-bottom: 11px;
     box-shadow: 2px 2px 2px 2px darkgray;
 
@@ -174,8 +159,6 @@ main {
     font-weight: 700;
     font-size: 22px;
 }
-
-.feature-banner {}
 
 .feature-banner img {
     width: 100%;
@@ -210,7 +193,6 @@ main {
 .achievement-intro {
     width: 500px;
     height: auto;
-    /* border: 1px solid black; */
     margin: 0 0 50px 150px;
     padding: 10px;
 }
@@ -232,7 +214,6 @@ main {
 .achievement-icon {
     display: flex;
     justify-content: center;
-    /* gap: 50px; */
 
 }
 
@@ -259,8 +240,6 @@ main {
 
 /* ---------main section 2 end and 3 is start here------------- */
 
-.main-section-4 {}
-
 .sponsor-title {
     width: 400px;
     height: auto;
@@ -269,28 +248,24 @@ main {
     text-align: center;
 }
 
-.sponsor-title h3 {}
-
 .sponsor-icons {
     width: 810px;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid black; */
     gap: 30px;
     padding: 10px 0 10px;
     margin: 0 auto 30px;
 
 }
 
-/* .sponsor-company {} */
-
 .sponsor-company img {
     width: 100px;
     height: auto;
 }
-.project-section{
+
+.project-section {
     width: 1200px;
     height: auto;
     display: flex;
@@ -299,18 +274,18 @@ main {
     align-items: center;
     gap: 30px;
 }
-.project-heading{
 
-}
-.project-container{
+.project-container {
     display: flex;
     gap: 20px;
     margin-bottom: 30px;
 }
-.project img{
-width: 150px;
-height: 150px;
+
+.project img {
+    width: 150px;
+    height: 150px;
 }
+
 .copy-right {
     width: 600px;
     height: auto;
@@ -330,3 +305,5 @@ height: 150px;
     text-decoration: underline;
     color: red;
 }
+
+/* --------------------------------media query and responsive----------------------------- */

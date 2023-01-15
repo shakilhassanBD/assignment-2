@@ -142,7 +142,7 @@ main {
     display: flex;
     justify-content: center;
     gap: 50px;
-    margin: 0 0 50px;
+    margin: 0 0 100px;
 }
 
 .feature {
@@ -180,8 +180,8 @@ main {
     border-radius: 10px;
     border-style: none;
     position: absolute;
-    left: 570px;
-    bottom: 55px;
+    left: 470px;
+    bottom: 0px;
 }
 
 /* ----------main section 2 is over and 3 is start here----------- */

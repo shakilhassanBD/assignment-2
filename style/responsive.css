@@ -123,7 +123,7 @@
         flex-direction: column;
         justify-content: center;
         gap: 30px;
-        margin: 0 0 50px;
+        margin: 0 0 100px;
     }
 
     .our-feature {
@@ -165,8 +165,9 @@
         border-radius: 10px;
         border-style: none;
         position: absolute;
-        left: 140px;
-        bottom: 20px;
+        left: 180px;
+        bottom: 0px;
+        margin-bottom: 20px;
     }
 
     .main-section-3 {
@@ -260,7 +261,7 @@
     }
 
     .project img {
-        width: 150px;
+        width: 250px;
         height: 150px;
     }
 
